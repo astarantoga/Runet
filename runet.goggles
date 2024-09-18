@@ -1,8 +1,8 @@
 ! name: Runet Only
-! description: Restrict search results to only Russian domains (.ru, .рф, .su)
-! author: Custom User
+! description: Restrict search results to Russian domains (.ru, .рф, .su)
+! author: astarantoga
 ! public: true
-$discard
+
 $restrict=site:.ru
 $restrict=site:.рф
 $restrict=site:.su
