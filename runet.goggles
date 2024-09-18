@@ -2,11 +2,12 @@
 ! description: Wyszukiwanie tylko w domenach .ru, .rf i .рф
 ! public: true
 ! author: TwojeImię
+! avatar: #0000FF
 
-# Boostuj domeny .ru, .rf, .рф
-+url:*.ru
-+url:*.rf
-+url:*.рф
-
-# Blokuj wszystkie inne
--url:*
+# Pozostałe domeny
+$discard,site=*.com
+$discard,site=*.org
+$discard,site=*.net
+$discard,site=*.co.uk
+$discard,site=*.ca
+# Wyszukiwanie tylko w domenach .ru, .rf, .рф
