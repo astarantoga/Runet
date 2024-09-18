@@ -1,1 +1,9 @@
+! name: Ograniczenie do domen .ru, .rf, .рф
+! description: Tylko wyniki z domen .ru, .rf, .рф
+! public: true
+! author: TwojeImię
 
+# Pozwalaj tylko na domeny .ru, .rf, .рф
+$site=*.ru
+$site=*.rf
+$site=*.xn--p1ai
