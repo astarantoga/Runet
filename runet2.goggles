@@ -1,0 +1,9 @@
+! name: Ograniczenie do domen .ru, .rf, .рф
+! description: Wyszukiwanie tylko w domenach .ru, .rf i .рф
+! public: true
+! author: TwojeImię
+
+# Wyklucz wszystkie domeny inne niż .ru, .rf, .рф
+$discard,site!=*.ru
+$discard,site!=*.рф
+$discard,site!=*.rf
