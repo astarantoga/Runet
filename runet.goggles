@@ -1,8 +1,8 @@
 ! name: Runet Only
-! description: Ogranicz wyniki wyszukiwania do stron z rosyjskimi domenami (.ru, .рф, .su)
+! description: Restrict search results to only Russian domains (.ru, .рф, .su)
 ! author: Custom User
 ! public: true
 $discard
-$restrict=site:.ru
-$restrict=site:.рф
-$restrict=site:.su
+$discard=site:-.ru
+$discard=site:-.рф
+$discard=site:-.su
