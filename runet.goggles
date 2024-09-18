@@ -2,7 +2,6 @@
 ! description: Restrict search results to Russian domains (.ru, .рф, .su)
 ! author: astarantoga
 ! public: true
-
 $restrict=site:.ru
 $restrict=site:.рф
 $restrict=site:.su
