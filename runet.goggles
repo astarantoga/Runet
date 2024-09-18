@@ -4,4 +4,4 @@
 ! author: TwojeImię
 
 # Wyklucz wszystkie domeny inne niż .ru, .rf, .рф
-$discard,site=*.ru
+$discard,site=kremlin.ru
