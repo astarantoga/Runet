@@ -1,7 +1,12 @@
-! name: Runet Only
-! description: Restrict search results to Russian domains (.ru, .рф, .su)
-! author: astarantoga
+! name: Ograniczenie do domen .ru, .rf, .рф
+! description: Wyszukiwanie tylko w domenach .ru, .rf i .рф
 ! public: true
-$restrict=site:.ru
-$restrict=site:.рф
-$restrict=site:.su
+! author: TwojeImię
+
+# Boostuj domeny .ru, .rf, .рф
++url:*.ru
++url:*.rf
++url:*.рф
+
+# Blokuj wszystkie inne
+-url:*
