@@ -1,1 +1,10 @@
+! name: Ograniczenie do domen .ru, .rf, .рф
+! description: Wyszukiwanie tylko w domenach .ru, .rf i .рф
+! public: true
+! author: TwojeImię
 
+# Pozwól tylko domenom .ru, .rf, .рф
+! Użycie regex do obsługi różnych domen
+|https://.*\.ru^
+|https://.*\.rf^
+|https://.*\.xn--p1ai^
