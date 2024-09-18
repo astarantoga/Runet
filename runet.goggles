@@ -3,6 +3,7 @@
 ! public: true
 ! author: TwojeImię
 
+# Wyklucz wszystkie domeny inne niż .ru, .rf, .рф
 $discard,site!=*.ru
+$discard,site!=*.рф
 $discard,site!=*.rf
-$discard,site!=*.xn--p1ai
