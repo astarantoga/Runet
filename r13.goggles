@@ -1,0 +1,7 @@
+! name: Wyszukiwanie dokumentów PDF i DOCX
+! description: Wyniki wyszukiwania ograniczone tylko do dokumentów w formatach PDF i DOCX
+! public: true
+! author: TwojeImię
+
+# Ograniczenie wyników tylko do plików PDF i DOCX
+.ru$inurl
