@@ -1,1 +1,12 @@
+! name: Ograniczenie do domen .ru, .rf, .рф
+! description: Wyniki wyszukiwania ograniczone do domen .ru, .rf, .рф
+! public: true
+! author: TwojeImię
 
+# Blokuj wszystkie inne domeny
+$discard,site=*
+
+# Wyjątek dla domen .ru, .rf, .рф
+/.*\.ru$/
+/.*\.rf$/
+/.*\.xn--p1ai$/
