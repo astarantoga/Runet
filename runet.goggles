@@ -1,13 +1,9 @@
 ! name: Ograniczenie do domen .ru, .rf, .рф
-! description: Wyszukiwanie tylko w domenach .ru, .rf i .рф
+! description: Ogranicz wyniki wyszukiwania tylko do stron z domenami .ru, .rf i .рф
 ! public: true
 ! author: TwojeImię
 ! avatar: #0000FF
-
-# Pozostałe domeny
-$discard,site=*.com
-$discard,site=*.org
-$discard,site=*.net
-$discard,site=*.co.uk
-$discard,site=*.ca
-# Wyszukiwanie tylko w domenach .ru, .rf, .рф
+# Blokuj wszystkie inne domeny poza .ru, .rf, .рф
+$discard,site!=*.ru
+$discard,site!=*.rf
+$discard,site!=*.рф
