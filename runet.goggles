@@ -3,6 +3,6 @@
 ! author: Custom User
 ! public: true
 $discard
-$discard=site:-.ru
-$discard=site:-.рф
-$discard=site:-.su
+$restrict=site:.ru
+$restrict=site:.рф
+$restrict=site:.su
